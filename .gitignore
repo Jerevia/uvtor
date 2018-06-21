@@ -1,0 +1,5 @@
+dist/*
+build/*
+uvtor.egg-info/*
+sftp-config.json
+__pycache__/

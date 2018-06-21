@@ -1,0 +1,21 @@
+import datetime
+import peewee as pw
+
+try:
+    import playhouse.postgres_ext as pw_pext
+except ImportError:
+    pass
+
+
+def migrate(migrator, database, fake=False, **kwargs):
+    """Write your migrations here."""
+
+
+{migrate}
+
+
+def rollback(migrator, database, fake=False, **kwargs):
+    """Write your rollback migrations here."""
+
+
+{rollback}
